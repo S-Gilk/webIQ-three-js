@@ -1,0 +1,49 @@
+{
+    "notificationDialog": {
+        "name": "notification-dialog",
+        "title": "${V_NOTIFICATION}",
+        "template": "default/sys-dialog/dialog-notification"
+    },
+    "confirmDialog": {
+        "class-name": "dialog-box confirm",
+        "title": "${V_CONFIRM_TITLE}",
+        "name": "visuals-confirm-dialog",
+        "template": "default/sys-dialog/dialog-confirm",
+        "cover-background": true
+    },
+    "optionDialog": {
+        "class-name": "dialog-box option",
+        "title": "${V_OPTIONDIALOG_TITLE}",
+        "name": "visuals-option-dialog",
+        "template": "default/sys-dialog/dialog-option",
+        "cover-background": true
+    },
+    "askSaveDialog": {
+        "class-name": "dialog-box ask-save",
+        "title": "${V_ASK_SAVE_TITLE}",
+        "name": "ask-save-dialog",
+        "template": "default/sys-dialog/dialog-ask-save",
+        "cover-background": true
+    },
+    "chooseFileDialog": {
+        "template": "default/sys-dialog/dialog-file"
+    },
+    "passwordExpiredDialog": {
+        "class-name": "dialog-box password-expired",
+        "name": "password-expired-dialog",
+        "template": "default/sys-dialog/dialog-password-expired",
+        "title": "${V_PASSWORD_EXPIRED_TITLE}",
+        "cover-background": true
+    },
+    "startupLogin": {
+        "ui": "login",
+        "class-name": "login",
+        "template": "default/login",
+        "userEntry": "<div data-ui=\"user\" class=\"user\"><div class=\"userPic\"></div><div class=\"user_detail\"><h1 data-ui=\"user-name\"><%= USER %></h1></div></div>"
+    },
+    "loadingOverlay": {
+        "tagName": "DIV",
+        "class-name": "loading-box-overlay",
+        "template": null
+    }
+}

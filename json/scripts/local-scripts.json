@@ -1,0 +1,22 @@
+{
+    "3d-canvas": {
+        "url": "js/custom-libs/local-scripts/3d-canvas.js",
+        "description": null
+    },
+    "OBJLoader": {
+        "url": "js/custom-libs/local-scripts/OBJLoader.js",
+        "description": null
+    },
+    "swipe-events": {
+        "url": "js/custom-libs/local-scripts/swipe-events.js",
+        "description": null
+    },
+    "orbit-controls": {
+        "url": "js/custom-libs/local-scripts/orbit-controls.js",
+        "description": null
+    },
+    "tween": {
+        "url": "js/custom-libs/local-scripts/tween.js",
+        "description": null
+    }
+}

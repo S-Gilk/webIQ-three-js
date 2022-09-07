@@ -1,0 +1,670 @@
+{
+  "lettersPalette": [
+    [
+      {
+        "type": "letter",
+        "name": "q",
+        "val": "q",
+        "modifiers": {
+          "shift:val": "Q",
+          "shift:name": "Q"
+        }
+      },
+      {
+        "type": "letter",
+        "name": "w",
+        "val": "w",
+        "modifiers": {
+          "shift:val": "W",
+          "shift:name": "W"
+        }
+      },
+      {
+        "type": "letter",
+        "name": "e",
+        "val": "e",
+        "modifiers": {
+          "shift:val": "E",
+          "shift:name": "E"
+        },
+        "alternatives": [
+          {
+            "type": "letter",
+            "name": "é",
+            "val": "é",
+            "modifiers": {
+              "shift:val": "É",
+              "shift:name": "É"
+            }
+          },
+          {
+            "type": "letter",
+            "name": "è",
+            "val": "è",
+            "modifiers": {
+              "shift:val": "È",
+              "shift:name": "È"
+            }
+          },
+          {
+            "type": "letter",
+            "name": "ê",
+            "val": "ê",
+            "modifiers": {
+              "shift:val": "Ê",
+              "shift:name": "Ê"
+            }
+          }
+        ]
+      },
+      {
+        "type": "letter",
+        "name": "r",
+        "val": "r",
+        "modifiers": {
+          "shift:val": "R",
+          "shift:name": "R"
+        }
+      },
+      {
+        "type": "letter",
+        "name": "t",
+        "val": "t",
+        "modifiers": {
+          "shift:val": "T",
+          "shift:name": "T"
+        }
+      },
+      {
+        "type": "letter",
+        "name": "y",
+        "val": "y",
+        "modifiers": {
+          "shift:val": "Y",
+          "shift:name": "Y"
+        }
+      },
+      {
+        "type": "letter",
+        "name": "u",
+        "val": "u",
+        "modifiers": {
+          "shift:val": "U",
+          "shift:name": "U"
+        }
+      },
+      {
+        "type": "letter",
+        "name": "i",
+        "val": "i",
+        "modifiers": {
+          "shift:val": "I",
+          "shift:name": "I"
+        }
+      },
+      {
+        "type": "letter",
+        "name": "o",
+        "val": "o",
+        "modifiers": {
+          "shift:val": "O",
+          "shift:name": "O"
+        }
+      },
+      {
+        "type": "letter",
+        "name": "p",
+        "val": "p",
+        "modifiers": {
+          "shift:val": "P",
+          "shift:name": "P"
+        }
+      }
+    ],
+    [
+      {
+        "type": "space-box",
+        "name": false,
+        "size": 1
+      },
+      {
+        "type": "letter",
+        "name": "a",
+        "val": "a",
+        "modifiers": {
+          "shift:val": "A",
+          "shift:name": "A"
+        }
+      },
+      {
+        "type": "letter",
+        "name": "s",
+        "val": "s",
+        "modifiers": {
+          "shift:val": "S",
+          "shift:name": "S"
+        }
+      },
+      {
+        "type": "letter",
+        "name": "d",
+        "val": "d",
+        "modifiers": {
+          "shift:val": "D",
+          "shift:name": "D"
+        }
+      },
+      {
+        "type": "letter",
+        "name": "f",
+        "val": "f",
+        "modifiers": {
+          "shift:val": "F",
+          "shift:name": "F"
+        }
+      },
+      {
+        "type": "letter",
+        "name": "g",
+        "val": "g",
+        "modifiers": {
+          "shift:val": "G",
+          "shift:name": "G"
+        }
+      },
+      {
+        "type": "letter",
+        "name": "h",
+        "val": "h",
+        "modifiers": {
+          "shift:val": "H",
+          "shift:name": "H"
+        }
+      },
+      {
+        "type": "letter",
+        "name": "j",
+        "val": "j",
+        "modifiers": {
+          "shift:val": "J",
+          "shift:name": "J"
+        }
+      },
+      {
+        "type": "letter",
+        "name": "k",
+        "val": "k",
+        "modifiers": {
+          "shift:val": "K",
+          "shift:name": "K"
+        }
+      },
+      {
+        "type": "letter",
+        "name": "l",
+        "val": "l",
+        "modifiers": {
+          "shift:val": "L",
+          "shift:name": "L"
+        }
+      },
+      {
+        "type": "space-box",
+        "name": false,
+        "size": 1
+      }
+    ],
+    [
+      {
+        "type": "modifier",
+        "name": "⇪",
+        "val": "⇪",
+        "class-name": "no-preview",
+        "modify": "letter:clipOnce:shift"
+      },
+      {
+        "type": "letter",
+        "name": "z",
+        "val": "z",
+        "modifiers": {
+          "shift:val": "Z",
+          "shift:name": "Z"
+        }
+      },
+      {
+        "type": "letter",
+        "name": "x",
+        "val": "x",
+        "modifiers": {
+          "shift:name": "X",
+          "shift:val": "X"
+        }
+      },
+      {
+        "type": "letter",
+        "name": "c",
+        "val": "c",
+        "modifiers": {
+          "shift:name": "C",
+          "shift:val": "C"
+        }
+      },
+      {
+        "type": "letter",
+        "name": "v",
+        "val": "v",
+        "modifiers": {
+          "shift:val": "V",
+          "shift:name": "V"
+        }
+      },
+      {
+        "type": "letter",
+        "name": "b",
+        "val": "b",
+        "modifiers": {
+          "shift:val": "B",
+          "shift:name": "B"
+        }
+      },
+      {
+        "type": "letter",
+        "name": "n",
+        "val": "n",
+        "modifiers": {
+          "shift:val": "N",
+          "shift:name": "N"
+        }
+      },
+      {
+        "type": "letter",
+        "name": "m",
+        "val": "m",
+        "modifiers": {
+          "shift:val": "M",
+          "shift:name": "M"
+        }
+      },
+      {
+        "type": "resolver",
+        "name": "⌫",
+        "hold": true,
+        "resolve": "backspace",
+        "class-name": "icon-with-border no-preview"
+      }
+    ],
+    [
+      {
+        "type": "palette",
+        "name": "123",
+        "val": "123",
+        "size": 2,
+        "class-name": "no-preview",
+        "palette": "numbersPalette"
+      },
+      {
+        "type": "letter",
+        "name": "└────────┘",
+        "val": " ",
+        "class-name": "icon-with-border no-preview space-bar",
+        "size": 8
+      },
+      {
+        "type": "character",
+        "name": "⏎",
+        "val": "\n",
+        "class-name": "icon-with-border no-preview",
+        "size": 2
+      }
+    ]
+  ],
+  "numbersPalette": [
+    [
+      {
+        "type": "number",
+        "name": "1",
+        "val": "1"
+      },
+      {
+        "type": "number",
+        "name": "2",
+        "val": "2"
+      },
+      {
+        "type": "number",
+        "name": "3",
+        "val": "3"
+      },
+      {
+        "type": "number",
+        "name": "4",
+        "val": "4"
+      },
+      {
+        "type": "number",
+        "name": "5",
+        "val": "5"
+      },
+      {
+        "type": "number",
+        "name": "6",
+        "val": "6"
+      },
+      {
+        "type": "number",
+        "name": "7",
+        "val": "7"
+      },
+      {
+        "type": "number",
+        "name": "8",
+        "val": "8"
+      },
+      {
+        "type": "number",
+        "name": "9",
+        "val": "9"
+      },
+      {
+        "type": "number",
+        "name": "0",
+        "val": "0"
+      }
+    ],
+    [
+      {
+        "type": "character",
+        "name": "-",
+        "val": "-"
+      },
+      {
+        "type": "character",
+        "name": "/",
+        "val": "/"
+      },
+      {
+        "type": "character",
+        "name": ":",
+        "val": ":"
+      },
+      {
+        "type": "character",
+        "name": ";",
+        "val": ";"
+      },
+      {
+        "type": "character",
+        "name": "(",
+        "val": "("
+      },
+      {
+        "type": "character",
+        "name": ")",
+        "val": ")"
+      },
+      {
+        "type": "character",
+        "name": "€",
+        "val": "€"
+      },
+      {
+        "type": "character",
+        "name": "$",
+        "val": "$"
+      },
+      {
+        "type": "character",
+        "name": "&",
+        "val": "&"
+      },
+      {
+        "type": "character",
+        "name": "@",
+        "val": "@"
+      },
+      {
+        "type": "character",
+        "name": "\"",
+        "val": "\""
+      }
+    ],
+    [
+      {
+        "type": "palette",
+        "name": "#+=",
+        "val": "#+=",
+        "size": 2,
+        "class-name": "no-preview",
+        "palette": "specialCharactersPalette"
+      },
+      {
+        "type": "character",
+        "name": ".",
+        "val": "."
+      },
+      {
+        "type": "character",
+        "name": ",",
+        "val": ","
+      },
+      {
+        "type": "character",
+        "name": "?",
+        "val": "?"
+      },
+      {
+        "type": "character",
+        "name": "!",
+        "val": "!"
+      },
+      {
+        "type": "character",
+        "name": "'",
+        "val": "'"
+      },
+      {
+        "type": "resolver",
+        "name": "⌫",
+        "resolve": "backspace",
+        "hold": true,
+        "class-name": "icon-with-border no-preview"
+      }
+    ],
+    [
+      {
+        "type": "palette",
+        "name": "ABC",
+        "val": "ABC",
+        "size": 2,
+        "class-name": "no-preview",
+        "palette": "lettersPalette"
+      },
+      {
+        "type": "letter",
+        "name": "└────────┘",
+        "val": " ",
+        "size": 8,
+        "class-name": "icon-with-border no-preview space-bar"
+      },
+      {
+        "type": "character",
+        "name": "⏎",
+        "val": "\n",
+        "size": 2,
+        "class-name": "icon-with-border no-preview"
+      }
+    ]
+  ],
+  "specialCharactersPalette": [
+    [
+      {
+        "type": "character",
+        "name": "[",
+        "val": "["
+      },
+      {
+        "type": "character",
+        "name": "]",
+        "val": "]"
+      },
+      {
+        "type": "character",
+        "name": "{",
+        "val": "{"
+      },
+      {
+        "type": "character",
+        "name": "}",
+        "val": "}"
+      },
+      {
+        "type": "character",
+        "name": "#",
+        "val": "#"
+      },
+      {
+        "type": "character",
+        "name": "%",
+        "val": "%"
+      },
+      {
+        "type": "character",
+        "name": "^",
+        "val": "^"
+      },
+      {
+        "type": "character",
+        "name": "*",
+        "val": "*"
+      },
+      {
+        "type": "character",
+        "name": "+",
+        "val": "+"
+      },
+      {
+        "type": "character",
+        "name": "=",
+        "val": "="
+      }
+    ],
+    [
+      {
+        "type": "character",
+        "name": "_",
+        "val": "_"
+      },
+      {
+        "type": "character",
+        "name": "\\",
+        "val": "\\"
+      },
+      {
+        "type": "character",
+        "name": "|",
+        "val": "|"
+      },
+      {
+        "type": "character",
+        "name": "~",
+        "val": "~"
+      },
+      {
+        "type": "character",
+        "name": "<",
+        "val": "<"
+      },
+      {
+        "type": "character",
+        "name": ">",
+        "val": ">"
+      },
+      {
+        "type": "character",
+        "name": "$",
+        "val": "$"
+      },
+      {
+        "type": "character",
+        "name": "£",
+        "val": "£"
+      },
+      {
+        "type": "character",
+        "name": "¥",
+        "val": "¥"
+      },
+      {
+        "type": "character",
+        "name": "\"",
+        "val": "\""
+      }
+    ],
+    [
+      {
+        "type": "palette",
+        "name": "123",
+        "val": "123",
+        "size": 2,
+        "class-name": "no-preview",
+        "palette": "numbersPalette"
+      },
+      {
+        "type": "character",
+        "name": ".",
+        "val": "."
+      },
+      {
+        "type": "character",
+        "name": ",",
+        "val": ","
+      },
+      {
+        "type": "character",
+        "name": "?",
+        "val": "?"
+      },
+      {
+        "type": "character",
+        "name": "!",
+        "val": "!"
+      },
+      {
+        "type": "character",
+        "name": "'",
+        "val": "'"
+      },
+      {
+        "type": "resolver",
+        "name": "⌫",
+        "hold": true,
+        "resolve": "backspace",
+        "class-name": "icon-with-border no-preview"
+      }
+    ],
+    [
+      {
+        "type": "palette",
+        "name": "ABC",
+        "val": "ABC",
+        "size": 2,
+        "class-name": "no-preview",
+        "palette": "lettersPalette"
+      },
+      {
+        "type": "letter",
+        "name": "└────────┘",
+        "val": " ",
+        "class-name": "icon-with-border no-preview space-bar",
+        "size": 8
+      },
+      {
+        "type": "character",
+        "name": "⏎",
+        "val": "\n",
+        "size": 2,
+        "class-name": "icon-with-border no-preview"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,38 @@
+{
+    "name": "three-js-demo",
+    "description": "",
+    "title": "three-js-demo",
+    "type": "app",
+    "version": "1.0",
+    "published": true,
+    "requires": {
+        "visuals": "^2.11.4+27483",
+        "lib-threeJS": "^0.143.0",
+        "lib-threeJS-OBJLoader": "^0.143.0",
+        "lib-threeJS-tween": "^0.143.0",
+        "lib-jquery3": "^3.3.1"
+    },
+    "grid": {
+        "x": 8,
+        "y": 8,
+        "visible": true,
+        "snap": false
+    },
+    "lastEdit": 1662573369,
+    "lastEditor": "admin",
+    "lastEditorData": {
+        "user": "GIS2HES",
+        "hostname": "MTP-C-0003K",
+        "platform": {
+            "architecture": "x64",
+            "platform": "win32",
+            "type": "Windows_NT"
+        },
+        "webiq": {
+            "connect": "2.11.3 (release/2.11.3/f3eb64e3)",
+            "designer": "2.10.0 v2.10.0 06a1fdc3cd67226c74464b5a5fb2dd2ca2a875f7",
+            "visuals": "2.11.4 Build 27483"
+        }
+    },
+    "lastLayout": 3
+}

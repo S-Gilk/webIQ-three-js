@@ -1,0 +1,13 @@
+/* css/custom/info-panel-styles.css */
+
+/* control base element */
+.iq-container.info-panel-styles {
+    min-height:0%;
+    min-width:0%;
+}
+
+/* element that contains child controls */
+.iq-container.info-panel-styles .margin-compensator {
+    min-height:0%;
+    min-width:0%;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SHMI project: Preview Client</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- static stylesheets -->
+        <link rel="stylesheet" type="text/css" href="css/controls.css">
+        <link rel="stylesheet" type="text/css" href="css/fonts.css">
+
+        <!-- auto includes from css/ -->
+        <link rel="stylesheet" type="text/css" href="css/custom/info-panel-styles.css">
+
+        <!-- visuals library js code -->
+        <script src="js/visuals.js"></script>
+
+        <!-- auto includes from js/custom-libs/ -->
+        <script src="js/custom-libs/jquery-3.3.1.min.js"></script>
+        <script src="js/custom-libs/three.min.js"></script>
+        <script src="js/custom-libs/.designer/designer.app.control.js"></script>
+        <script src="js/custom-libs/.designer/designer.app.model.js"></script>
+        <script src="js/custom-libs/.designer/designer.client.styles.js"></script>
+        <script src="js/custom-libs/.designer/designer.filemanagerOverride.js"></script>
+        <script src="js/custom-libs/.designer/designer.sessionClient.controls.js"></script>
+        <script src="js/custom-libs/.designer/designer.sessionClient.copy.js"></script>
+        <script src="js/custom-libs/.designer/designer.sessionClient.js"></script>
+        <script src="js/custom-libs/.designer/designer.sessionClient.nodes.js"></script>
+        <script src="js/custom-libs/.designer/designer.sessionClient.shortcuts.js"></script>
+        <script src="js/custom-libs/.designer/designer.template.parser.js"></script>
+        <script src="js/custom-libs/.designer/designer.tools.lsdirRecursive.js"></script>
+        <script src="js/custom-libs/.designer/designer.tools.nodeFs.js"></script>
+        <script src="js/custom-libs/.designer/designer.tools.refCounter.js"></script>
+        <script src="js/custom-libs/.designer/visuals.meta.js"></script>
+        <script src="js/custom-libs/.designer/visuals.tools.put-resource.js"></script>
+        <script src="js/custom-libs/.designer/visuals.tools.scriptLoader.js"></script>
+        <script src="js/custom-libs/.designer/c2c/client-state.js"></script>
+        <script src="js/custom-libs/.designer/c2c/designer.c2c.connection.js"></script>
+        <script src="js/custom-libs/.designer/c2c/designer.c2c.rpc.js"></script>
+        <script src="js/custom-libs/.designer/c2c/handlers-client.js"></script>
+        <script src="js/custom-libs/local-scripts/3d-canvas.js"></script>
+        <script src="js/custom-libs/local-scripts/OBJLoader.js"></script>
+        <script src="js/custom-libs/local-scripts/orbit-controls.js"></script>
+        <script src="js/custom-libs/local-scripts/swipe-events.js"></script>
+        <script src="js/custom-libs/local-scripts/tween.js"></script>
+
+        <!-- controls bundle -->
+        <script src="js/controls-bundle.js"></script>
+
+        <!-- auto includes from js/custom-controls/ -->
+        
+
+        <!-- designer js modules -->
+         
+
+    </head>
+    <body>
+        <div id="status">waiting for master ...</div>
+        <div class="layout">
+            <div class="container login_container">
+                <div class="login">
+                     <!-- loading animation - will be replaced by login template on connect -->
+                     <div class="loader">
+                          <div class="loader-bg-image"></div>
+                          <div class="loader-container">
+                               <div class="background"></div>
+                               <div class="loading"></div>
+                          </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

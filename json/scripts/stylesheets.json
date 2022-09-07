@@ -1,0 +1,7 @@
+{
+    "info-panel-styles": {
+        "url": "css/custom/info-panel-styles.css",
+        "description": null,
+        "template": "container"
+    }
+}

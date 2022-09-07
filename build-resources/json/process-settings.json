@@ -1,0 +1,148 @@
+{
+    "compileSettings": "json/compile-settings.json",
+    "createControl": {
+        "modelDir": "build-resources/control-model/",
+        "files": {
+            "webiq": {
+                "onCreate": false,
+                "onExport": true,
+                "required": true,
+                "includedByDefault": true,
+                "paths": [
+                    {
+                        "path": {
+                            "./": {
+                                "custom": "build-resources/control-model/",
+                                "system": "build-resources/control-model/"
+                            }
+                        },
+                        "fileNames": {
+                            "webiq.json.tpl": "../../webiq.json"
+                        }
+                    }
+                ]
+            },
+            "js": {
+                "onCreate": true,
+                "onExport": true,
+                "includedByDefault": true,
+                "paths": [
+                    {
+                        "path": {
+                            "js/": {
+                                "system": "js/custom-controls/system/",
+                                "custom": "js/custom-controls/"
+                            }
+                        },
+                        "fileNames": {
+                            "control-name.js.tpl": "<%= control_name %>.js"
+                        }
+                    }
+                ]
+            },
+            "json": {
+                "includedByDefault": true,
+                "paths": [
+                    {
+                        "path": {
+                            "json/": {
+                                "system": "json/controls/<%= control_name %>/",
+                                "custom": "json/controls/<%= control_name %>/"
+                            }
+                        },
+                        "fileNames": null
+                    }
+                ]
+            },
+            ".designer": {
+                "onCreate": false,
+                "onExport": true,
+                "required": true,
+                "includedByDefault": true,
+                "paths": [
+                    {
+                        "path": {
+                            "designer/": {
+                                "custom": ".designer/meta/controls/",
+                                "system": ".designer/meta/controls/"
+                            }
+                        },
+                        "fileNames": {
+                            "control-name.json.tpl": "<%= control_name %>.json"
+                        }
+                    }
+                ]
+            },
+            "less": {
+                "includedByDefault": true,
+                "paths": [
+                    {
+                        "path": {
+                            "less/": {
+                                "system": "less/system/controls/<%= control_name %>/",
+                                "custom": "less/custom/controls/<%= control_name %>/"
+                            }
+                        },
+                        "fileNames": {
+                            "style.less": "<%= inherit_filename %>",
+                            "dimensions.less": "<%= inherit_filename %>",
+                            "common.less": "<%= inherit_filename %>"
+                        }
+                    },
+                    {
+                        "path": {
+                            "less/sizes/": {
+                                "system": "less/system/controls/<%= control_name %>/sizes/",
+                                "custom": "less/custom/controls/<%= control_name %>/sizes/"
+                            }
+                        },
+                        "fileNames": {
+                            "default.json": "<%= inherit_filename %>"
+                        }
+                    },
+                    {
+                        "path": {
+                            "less/theming/": {
+                                "system": "less/system/controls/<%= control_name %>/theming/",
+                                "custom": "less/custom/controls/<%= control_name %>/theming/"
+                            }
+                        },
+                        "fileNames": {
+                            "default.json": "<%= inherit_filename %>"
+                        }
+                    }
+                ]
+            },
+            "templates": {
+                "includedByDefault": true,
+                "paths": [
+                    {
+                        "path": {
+                            "templates/": {
+                                "system": "templates/default/",
+                                "custom": "templates/custom/controls/"
+                            }
+                        },
+                        "fileNames": {
+                            "control-name.html.tpl": "<%= control_name %>.html"
+                        }
+                    }
+                ]
+            },
+            "pics": {
+                "includedByDefault": false,
+                "paths": [
+                    {
+                        "path": {
+                            "pics/": {
+                                "system": "pics/system/controls/<%= control_name %>/",
+                                "custom": "pics/custom/controls/<%= control_name %>/"
+                            }
+                        },
+                        "fileNames": null
+                    }
+                ]
+            }
+        }
+    }
+}

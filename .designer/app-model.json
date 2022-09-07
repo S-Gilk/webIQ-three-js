@@ -1,0 +1,622 @@
+{
+    "templates": {
+        "root": [
+            {
+                "type": 1,
+                "ui": "container",
+                "controlType": 4,
+                "tagName": "DIV",
+                "attributes": {
+                    "data-ui": "container",
+                    "data-config-name": "res://node-6nailek0equ/config",
+                    "_nodeid": "node-6nailek0equ"
+                },
+                "children": [
+                    {
+                        "type": 3,
+                        "value": "\n    \n"
+                    },
+                    {
+                        "type": 1,
+                        "ui": "container",
+                        "controlType": 4,
+                        "tagName": "DIV",
+                        "attributes": {
+                            "data-ui": "container",
+                            "_nodeid": "node-j7akl87foy",
+                            "data-config-name": "res://node-j7akl87foy/config"
+                        },
+                        "children": [
+                            {
+                                "type": 1,
+                                "ui": "iq-text",
+                                "controlType": 1,
+                                "tagName": "DIV",
+                                "attributes": {
+                                    "data-ui": "iq-text",
+                                    "_nodeid": "node-245p222agsq",
+                                    "data-config-name": "res://node-245p222agsq/config"
+                                },
+                                "children": [],
+                                "id": "node-245p222agsq",
+                                "parentGroupId": null,
+                                "parent": "node-j7akl87foy",
+                                "template": "root",
+                                "groupConfig": null,
+                                "controlConfig": {
+                                    "class-name": "iq-text iq-variant-01",
+                                    "template": "default/iq-text.iq-variant-01",
+                                    "name": "iq-text",
+                                    "ui": "iq-text",
+                                    "text": "",
+                                    "items": [],
+                                    "_designer_": {
+                                        "variant": null
+                                    }
+                                },
+                                "style": {
+                                    "ui": "iq-text",
+                                    "general": {
+                                        "offset-top": null,
+                                        "offset-right": null,
+                                        "offset-bottom": null,
+                                        "offset-left": null,
+                                        "position": null,
+                                        "z-index": null,
+                                        "transform": null,
+                                        "transform-origin": null,
+                                        "visibility": null,
+                                        "opacity": null,
+                                        "width": null,
+                                        "height": null,
+                                        "flex": null,
+                                        "margin-top": null,
+                                        "margin-right": null,
+                                        "margin-bottom": null,
+                                        "margin-left": null,
+                                        "padding-top": null,
+                                        "padding-right": null,
+                                        "padding-bottom": null,
+                                        "padding-left": null,
+                                        "overflow-x": null,
+                                        "overflow-y": null,
+                                        "min-width": null,
+                                        "max-width": null,
+                                        "min-height": null,
+                                        "max-height": null,
+                                        ".iq-text": {
+                                            "font-family": "RobotoBold",
+                                            "font-size": {
+                                                "value": 4,
+                                                "unit": "em"
+                                            },
+                                            "font-weight": "bold",
+                                            "font-style": null,
+                                            "text-decoration": null,
+                                            "text-align": null,
+                                            "color": "#FF0000"
+                                        }
+                                    },
+                                    "media": {
+                                        "mobile": {},
+                                        "wide-mobile": {},
+                                        "tablet-portrait": {},
+                                        "tablet-landscape": {},
+                                        "wide": {},
+                                        "extra-wide": {}
+                                    },
+                                    "devStyle": {},
+                                    "align": "TOP_LEFT"
+                                }
+                            },
+                            {
+                                "type": 1,
+                                "ui": "iq-text",
+                                "controlType": 1,
+                                "tagName": "DIV",
+                                "attributes": {
+                                    "data-ui": "iq-text",
+                                    "_nodeid": "node-z8k5m6jox2",
+                                    "data-config-name": "res://node-z8k5m6jox2/config"
+                                },
+                                "children": [],
+                                "id": "node-z8k5m6jox2",
+                                "parentGroupId": null,
+                                "parent": "node-j7akl87foy",
+                                "template": "root",
+                                "groupConfig": null,
+                                "controlConfig": {
+                                    "class-name": "iq-text iq-variant-01",
+                                    "template": "default/iq-text.iq-variant-01",
+                                    "name": "iq-text_1",
+                                    "ui": "iq-text",
+                                    "text": "",
+                                    "items": [],
+                                    "_designer_": {
+                                        "variant": null
+                                    }
+                                },
+                                "style": {
+                                    "ui": "iq-text",
+                                    "general": {
+                                        "offset-top": null,
+                                        "offset-right": null,
+                                        "offset-bottom": null,
+                                        "offset-left": null,
+                                        "position": null,
+                                        "z-index": null,
+                                        "transform": null,
+                                        "transform-origin": null,
+                                        "visibility": null,
+                                        "opacity": null,
+                                        "width": null,
+                                        "height": null,
+                                        "flex": null,
+                                        "margin-top": null,
+                                        "margin-right": null,
+                                        "margin-bottom": null,
+                                        "margin-left": null,
+                                        "padding-top": null,
+                                        "padding-right": null,
+                                        "padding-bottom": null,
+                                        "padding-left": null,
+                                        "overflow-x": null,
+                                        "overflow-y": null,
+                                        "min-width": null,
+                                        "max-width": null,
+                                        "min-height": null,
+                                        "max-height": null,
+                                        ".iq-text": {
+                                            "font-family": "RobotoBold",
+                                            "font-size": {
+                                                "value": 2.5,
+                                                "unit": "em"
+                                            },
+                                            "font-weight": "bold",
+                                            "font-style": null,
+                                            "text-decoration": null,
+                                            "text-align": "center",
+                                            "color": "#000000"
+                                        }
+                                    },
+                                    "media": {
+                                        "mobile": {},
+                                        "wide-mobile": {},
+                                        "tablet-portrait": {},
+                                        "tablet-landscape": {},
+                                        "wide": {},
+                                        "extra-wide": {}
+                                    },
+                                    "devStyle": {},
+                                    "align": "TOP_LEFT"
+                                }
+                            },
+                            {
+                                "type": 1,
+                                "ui": "iq-text",
+                                "controlType": 1,
+                                "tagName": "DIV",
+                                "attributes": {
+                                    "data-ui": "iq-text",
+                                    "_nodeid": "node-6tbly6in0w4",
+                                    "data-config-name": "res://node-6tbly6in0w4/config"
+                                },
+                                "children": [],
+                                "id": "node-6tbly6in0w4",
+                                "parentGroupId": null,
+                                "parent": "node-j7akl87foy",
+                                "template": "root",
+                                "groupConfig": null,
+                                "controlConfig": {
+                                    "class-name": "iq-text iq-variant-01",
+                                    "template": "default/iq-text.iq-variant-01",
+                                    "name": "iq-text_2",
+                                    "ui": "iq-text",
+                                    "text": "",
+                                    "items": [],
+                                    "_designer_": {
+                                        "variant": null
+                                    }
+                                },
+                                "style": {
+                                    "ui": "iq-text",
+                                    "general": {
+                                        "offset-top": null,
+                                        "offset-right": null,
+                                        "offset-bottom": null,
+                                        "offset-left": null,
+                                        "position": null,
+                                        "z-index": null,
+                                        "transform": null,
+                                        "transform-origin": null,
+                                        "visibility": null,
+                                        "opacity": null,
+                                        "width": null,
+                                        "height": null,
+                                        "flex": null,
+                                        "margin-top": null,
+                                        "margin-right": null,
+                                        "margin-bottom": null,
+                                        "margin-left": null,
+                                        "padding-top": null,
+                                        "padding-right": null,
+                                        "padding-bottom": null,
+                                        "padding-left": null,
+                                        "overflow-x": null,
+                                        "overflow-y": null,
+                                        "min-width": null,
+                                        "max-width": null,
+                                        "min-height": null,
+                                        "max-height": null,
+                                        ".iq-text": {
+                                            "font-family": "RobotoBold",
+                                            "font-size": {
+                                                "value": 2,
+                                                "unit": "em"
+                                            },
+                                            "font-weight": "bold",
+                                            "font-style": "italic",
+                                            "text-decoration": null,
+                                            "text-align": null,
+                                            "color": null
+                                        }
+                                    },
+                                    "media": {
+                                        "mobile": {},
+                                        "wide-mobile": {},
+                                        "tablet-portrait": {},
+                                        "tablet-landscape": {},
+                                        "wide": {},
+                                        "extra-wide": {}
+                                    },
+                                    "devStyle": {},
+                                    "align": "TOP_LEFT"
+                                }
+                            },
+                            {
+                                "type": 1,
+                                "ui": "iq-text",
+                                "controlType": 1,
+                                "tagName": "DIV",
+                                "attributes": {
+                                    "data-ui": "iq-text",
+                                    "_nodeid": "node-wgepj3jq67n",
+                                    "data-config-name": "res://node-wgepj3jq67n/config"
+                                },
+                                "children": [],
+                                "id": "node-wgepj3jq67n",
+                                "parentGroupId": null,
+                                "parent": "node-j7akl87foy",
+                                "template": "root",
+                                "groupConfig": null,
+                                "controlConfig": {
+                                    "class-name": "iq-text iq-variant-01",
+                                    "template": "default/iq-text.iq-variant-01",
+                                    "name": "iq-text_3",
+                                    "ui": "iq-text",
+                                    "text": "",
+                                    "items": [],
+                                    "_designer_": {
+                                        "variant": null
+                                    }
+                                },
+                                "style": {
+                                    "ui": "iq-text",
+                                    "general": {
+                                        "offset-top": null,
+                                        "offset-right": null,
+                                        "offset-bottom": null,
+                                        "offset-left": null,
+                                        "position": null,
+                                        "z-index": null,
+                                        "transform": null,
+                                        "transform-origin": null,
+                                        "visibility": null,
+                                        "opacity": null,
+                                        "width": null,
+                                        "height": null,
+                                        "flex": null,
+                                        "margin-top": null,
+                                        "margin-right": null,
+                                        "margin-bottom": null,
+                                        "margin-left": null,
+                                        "padding-top": null,
+                                        "padding-right": null,
+                                        "padding-bottom": null,
+                                        "padding-left": null,
+                                        "overflow-x": null,
+                                        "overflow-y": null,
+                                        "min-width": null,
+                                        "max-width": null,
+                                        "min-height": null,
+                                        "max-height": null,
+                                        ".iq-text": {
+                                            "font-family": "RobotoBold",
+                                            "font-size": {
+                                                "value": 2,
+                                                "unit": "em"
+                                            },
+                                            "font-weight": "bold",
+                                            "font-style": null,
+                                            "text-decoration": null,
+                                            "text-align": null,
+                                            "color": "#FF0000"
+                                        }
+                                    },
+                                    "media": {
+                                        "mobile": {},
+                                        "wide-mobile": {},
+                                        "tablet-portrait": {},
+                                        "tablet-landscape": {},
+                                        "wide": {},
+                                        "extra-wide": {}
+                                    },
+                                    "devStyle": {},
+                                    "align": "TOP_LEFT"
+                                }
+                            }
+                        ],
+                        "id": "node-j7akl87foy",
+                        "parentGroupId": null,
+                        "parent": "node-6nailek0equ",
+                        "template": "root",
+                        "groupConfig": null,
+                        "controlConfig": {
+                            "class-name": "iq-container",
+                            "type": "iqflex",
+                            "flex-orientation": "column",
+                            "flex-none": true,
+                            "flex-wrap": false,
+                            "flex-primary-align": "start",
+                            "flex-secondary-align": "stretch",
+                            "flex-line-align": "start",
+                            "name": "info-panel",
+                            "template": null,
+                            "_designer_": {
+                                "variant": "iq-flex-v-layout"
+                            },
+                            "ui": "container",
+                            "auto-width": false,
+                            "auto-margin": false,
+                            "h-alignment": "left",
+                            "v-alignment": "top",
+                            "flex-distribute": false,
+                            "flex-all": false,
+                            "_appearances_": [
+                                {
+                                    "modifier": "info-panel-styles",
+                                    "condition": null
+                                }
+                            ]
+                        },
+                        "variant": "iq-flex-v-layout",
+                        "style": {
+                            "ui": "container",
+                            "general": {
+                                "offset-top": null,
+                                "offset-right": null,
+                                "offset-bottom": null,
+                                "offset-left": null,
+                                "position": "fixed",
+                                "z-index": null,
+                                "transform": null,
+                                "transform-origin": null,
+                                "visibility": null,
+                                "opacity": null,
+                                "width": null,
+                                "height": {
+                                    "value": 100,
+                                    "unit": "%"
+                                },
+                                "flex": null,
+                                "margin-top": null,
+                                "margin-right": null,
+                                "margin-bottom": null,
+                                "margin-left": null,
+                                "padding-top": null,
+                                "padding-right": null,
+                                "padding-bottom": null,
+                                "padding-left": null,
+                                "overflow-x": null,
+                                "overflow-y": null,
+                                "min-width": null,
+                                "max-width": null,
+                                "min-height": null,
+                                "max-height": null,
+                                "iq-selector": null,
+                                "background": "#0BCCF4CC",
+                                "background-color": null,
+                                "border-color": null,
+                                "border-width": null,
+                                "border-radius": null,
+                                "border-style": null,
+                                "border-top-style": null,
+                                "border-right-style": null,
+                                "border-bottom-style": null,
+                                "border-left-style": null,
+                                "box-shadow": null
+                            },
+                            "media": {
+                                "mobile": {},
+                                "wide-mobile": {},
+                                "tablet-portrait": {},
+                                "tablet-landscape": {},
+                                "wide": {},
+                                "extra-wide": {}
+                            },
+                            "devStyle": {},
+                            "align": "TOP_LEFT"
+                        }
+                    },
+                    {
+                        "type": 1,
+                        "ui": "local-script",
+                        "controlType": 1,
+                        "tagName": "DIV",
+                        "attributes": {
+                            "data-ui": "local-script",
+                            "_nodeid": "node-wux4x4rohr",
+                            "data-config-name": "res://node-wux4x4rohr/config"
+                        },
+                        "children": [],
+                        "id": "node-wux4x4rohr",
+                        "parentGroupId": null,
+                        "parent": "node-6nailek0equ",
+                        "template": "root",
+                        "groupConfig": null,
+                        "controlConfig": {
+                            "name": "ls-3d-canvas",
+                            "module": "3d-canvas",
+                            "_designer_": {
+                                "variant": null
+                            },
+                            "ui": "local-script"
+                        },
+                        "style": {
+                            "ui": "local-script",
+                            "general": {},
+                            "media": {
+                                "mobile": {},
+                                "wide-mobile": {},
+                                "tablet-portrait": {},
+                                "tablet-landscape": {},
+                                "wide": {},
+                                "extra-wide": {}
+                            },
+                            "devStyle": {},
+                            "align": "TOP_LEFT"
+                        }
+                    },
+                    {
+                        "type": 1,
+                        "ui": "local-script",
+                        "controlType": 1,
+                        "tagName": "DIV",
+                        "attributes": {
+                            "data-ui": "local-script",
+                            "_nodeid": "node-x083hcius3r",
+                            "data-config-name": "res://node-x083hcius3r/config"
+                        },
+                        "children": [],
+                        "id": "node-x083hcius3r",
+                        "parentGroupId": null,
+                        "parent": "node-6nailek0equ",
+                        "template": "root",
+                        "groupConfig": null,
+                        "controlConfig": {
+                            "name": "ls-OBJLoader",
+                            "module": "OBJLoader",
+                            "_designer_": {
+                                "variant": null
+                            },
+                            "ui": "local-script"
+                        },
+                        "style": {
+                            "ui": "local-script",
+                            "general": {},
+                            "media": {
+                                "mobile": {},
+                                "wide-mobile": {},
+                                "tablet-portrait": {},
+                                "tablet-landscape": {},
+                                "wide": {},
+                                "extra-wide": {}
+                            },
+                            "devStyle": {},
+                            "align": "TOP_LEFT"
+                        }
+                    },
+                    {
+                        "type": 1,
+                        "ui": "local-script",
+                        "controlType": 1,
+                        "tagName": "DIV",
+                        "attributes": {
+                            "data-ui": "local-script",
+                            "_nodeid": "node-kqf3cxnz5d9",
+                            "data-config-name": "res://node-kqf3cxnz5d9/config"
+                        },
+                        "children": [],
+                        "id": "node-kqf3cxnz5d9",
+                        "parentGroupId": null,
+                        "parent": "node-6nailek0equ",
+                        "template": "root",
+                        "groupConfig": null,
+                        "controlConfig": {
+                            "name": "ls-swipe-events",
+                            "module": "swipe-events",
+                            "_designer_": {
+                                "variant": null
+                            },
+                            "ui": "local-script"
+                        },
+                        "style": {
+                            "ui": "local-script",
+                            "general": {},
+                            "media": {
+                                "mobile": {},
+                                "wide-mobile": {},
+                                "tablet-portrait": {},
+                                "tablet-landscape": {},
+                                "wide": {},
+                                "extra-wide": {}
+                            },
+                            "devStyle": {},
+                            "align": "TOP_LEFT"
+                        }
+                    }
+                ],
+                "id": "node-6nailek0equ",
+                "parentGroupId": null,
+                "parent": null,
+                "template": "root",
+                "groupConfig": null,
+                "controlConfig": {
+                    "ui": "container",
+                    "class-name": "iq-container",
+                    "type": "iqflex",
+                    "flex-orientation": "column",
+                    "flex-none": true,
+                    "flex-wrap": false,
+                    "flex-primary-align": "start",
+                    "flex-secondary-align": "stretch",
+                    "flex-line-align": "start",
+                    "name": "root",
+                    "template": null,
+                    "_designer_": {
+                        "variant": "iq-flex-v-layout"
+                    },
+                    "auto-width": false,
+                    "auto-margin": false,
+                    "h-alignment": "left",
+                    "v-alignment": "top",
+                    "flex-distribute": false,
+                    "flex-all": false
+                },
+                "variant": "iq-flex-v-layout",
+                "style": {
+                    "ui": "container",
+                    "general": {},
+                    "media": {
+                        "mobile": {},
+                        "wide-mobile": {},
+                        "tablet-portrait": {},
+                        "tablet-landscape": {},
+                        "wide": {},
+                        "extra-wide": {}
+                    },
+                    "devStyle": {},
+                    "align": "TOP_LEFT"
+                }
+            },
+            {
+                "type": 3,
+                "value": "\n"
+            }
+        ]
+    },
+    "groups": {
+        "map": {},
+        "ids": {}
+    }
+}
